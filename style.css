@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+}
+
+#header{
+    width: 100%;
+    height: 750px;
+    background: url(Images/Images/header-bg.jpg) no-repeat center center;
+    margin: 0;
+    position: relative;
+}
+
+.shade{
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    background-color: #000;
+    opacity: 0.7;
+
+}
+
+.logo{
+    margin: 10px 10px 0px 50px;
+}
+
+nav{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    position: relative;
+
+}
+
+.container{
+    max-width: 1140px;
+    height: 700px;
+    text-align: left;
+    color:white;
+    margin-top: 170px;
+    margin-left:auto;
+    margin-right: auto;
+
+
+
+}
+.container h1{
+    font-size: 40px;
+    margin: 25px 0 25px 0;
+}
+.container a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    background-color:#F9B700;
+    padding: 10px;
+}
+.left{
+    display: inline-block;
+    color: white;
+    width: 500px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 40px;
+    margin-top: 170px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+
+}
+
+.formbg{
+    display: inline-block;
+    color: white;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    background-color: rgba(18,31,48,0.5);
+    padding: 40px;
+    margin-top: 40px;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+
+}
+form{
+    display:inline-block;
+    position: absolute;
+    top:170px;
+    right: 160px;
+    text-align: center;
+}
+#cars{
+    width: 360px;
+    height: 40px;
+    text-indent: 10px;
+    color: gray;
+
+}
+input{
+    display:inline-block ;
+    width: 170px;
+    height: 40px;
+    margin: 5px;
+    padding: 10px;
+    text-indent: 10px;
+    color: gray;
+}
+.input{
+    text-align: center;
+    width: 400px;
+    margin: 10px;
+}
+.input a{
+    text-align: center;
+    width: 90%;
+    height: 40px;
+}
+.L{
+    width: 360px;
+}
+
+.maincontent{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.maincontent h1{
+    margin-top: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.maincontent p{
+    margin-top: 30px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 2;
+    text-align: center;
+
+}
+.maincontent div{
+
+    max-width:300px;
+    background-color:#EDEDF7;
+    margin-top: 50px;
+    border:10px #EDEDF7;
+    border-radius: 10px;
+}
+
+.card h3{
+    display: inline-block;
+    background-image: url(Images/Images/icons/ico1.jpg);
+    background-repeat: no-repeat;
+    background-position: 4% 17%;
+    padding: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+    text-indent: 20px;
+}
+.card h3 p{
+    text-indent: 2px;
+    text-align: left;
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#card2{
+    background-image: url(Images/Images/icons/ico2.jpg);
+}
+#card3{
+    background-image: url(Images/Images/icons/ico3.jpg);
+}
+#card4{
+    background-image: url(Images/Images/icons/ico4.jpg);
+}
+#card5{
+    background-image: url(Images/Images/icons/ico5.jpg);
+}
+#card6{
+    background-image: url(Images/Images/icons/ico6.jpg);
+}
+
+.about{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: justify;
+}
+.about img{
+    max-width: 55%;
+    margin-left: 65px;
+}
+.about h1{
+    text-align: left;
+    padding-left: 50px;
+}
+.about p{
+    text-align: left;
+}
+.about button{
+    background-color: #F9B700;
+    width: 170px;
+    height: 40px;
+    color: white;
+    margin-top: 25px;
+    font-weight: bold;
+    border: none;
+}
+.book{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: justify;
+    position: relative;
+}
+.book img{
+    max-width: 50%;
+    position: absolute;
+    top: 0px;
+    right: 40px;
+}
+.book p,h2{
+    max-width: 40%;
+    text-align: left;
+    margin-left: 65px;
+    padding: 0px;
+}
+.book h2{
+    position: absolute;
+    top: 35px;
+}
+.book button{
+    background-color: #222222;
+    width: 170px;
+    height: 40px;
+    color: white;
+    margin-left: 65px;
+    font-weight: bold;
+    border: none;
+}
+#price{
+    color: #F9B700;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: right;
+}
+.title{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#banner{
+    width: 100%;
+    height: 410px;
+    background: url(Images/Images/callaction-bg.jpg) no-repeat center center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#banner h1{
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 150px;
+}
+#banner p{
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#support{
+    display: block;
+    border-color: #F9B700;
+    width: 250px;
+    height: 40px;
+    color: #F9B700;
+    font-weight: bolder;
+    background-color: transparent;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.shade2{
+    width: 100%;
+    height: 410px;
+    margin: 0;
+    background-color: #000;
+    opacity: 0.7;
+}
+
+.cars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.cars p{
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+
+}
+.cars div{
+    max-width: 200px;
+    background-color: white;
+}
+.cars span{
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    text-align: left;
+    font-weight: lighter;
+
+}
+#car1,#car2,#car3,#car4{
+    color: gray;
+    height: 20px;
+    font-size: 9px;
+    font-weight: 2;
+    text-align: left;
+    background-image: url(Images/Images/icons/like-ico.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+#car11,#car22,#car33,#car44{
+    color: gray;
+    height: 20px;
+    font-size: 9px;
+    font-weight: 2;
+    text-align: left;
+    background-image: url(Images/Images/icons/comment-ico.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+
+
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background: #04091D center center;
+    margin: 0;
+}
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+}
+#footer ul{
+    max-width: 200px;
+    color: white;
+    font-weight: bold;
+    list-style: none;
+}
+#footer li{
+    color: gray;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+#social li{
+
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 11px;
+}
